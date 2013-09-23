@@ -1,0 +1,2 @@
+obj.x86/DeviceContext.o : 
+dep/DIBSection.d obj.x86/DIBSection.o : DLLs/GDI32/DIBSection.cpp DLLs/GDI32/DIBSection.h   Common/Common.h Common/Errors.h DLLs/GDI32/GDI32.h   DLLs/Win32Structures.h DLLs/Win32FontStructures.h   DLLs/GDI32/Palette.h DLLs/GDI32/Object.h DLLs/GDI32/DeviceContext.h   DLLs/GDI32/Bitmap.h DLLs/GDI32/StretchDIBits.h DLLs/GDI32/Region.h   DLLs/Win32Trace.h DLLs/Kernel32/LastError.h Coff.h CoffFileHeader.h   OptionalHeader.h SectionHeader.h CoffSigSegv.h ResourceTable.h   DLLs/Win32Error.h

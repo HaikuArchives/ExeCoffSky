@@ -1,0 +1,83 @@
+void *
+GetAddressByOrder
+(int order)
+{
+	switch (order) {
+	case 1141:	return (void*)AcceptEx;
+	case 1111:	return (void*)EnumProtocolsA;
+	case 1112:	return (void*)EnumProtocolsW;
+	case 1142:	return (void*)GetAcceptExSockaddrs;
+	case 1109:	return (void*)GetAddressByNameA;
+	case 1110:	return (void*)GetAddressByNameW;
+	case 1115:	return (void*)GetNameByTypeA;
+	case 1116:	return (void*)GetNameByTypeW;
+	case 1119:	return (void*)GetServiceA;
+	case 1120:	return (void*)GetServiceW;
+	case 1113:	return (void*)GetTypeByNameA;
+	case 1114:	return (void*)GetTypeByNameW;
+//	case 24:	return (void*)MigrateWinsockConfiguration;
+//	case 1130:	return (void*)NPLoadNameSpaces;
+	case 1117:	return (void*)SetServiceA;
+	case 1118:	return (void*)SetServiceW;
+	case 1140:	return (void*)TransmitFile;
+//	case 500:	return (void*)WEP;
+	case 102:	return (void*)WSAAsyncGetHostByAddr;
+	case 103:	return (void*)WSAAsyncGetHostByName;
+	case 105:	return (void*)WSAAsyncGetProtoByName;
+	case 104:	return (void*)WSAAsyncGetProtoByNumber;
+	case 107:	return (void*)WSAAsyncGetServByName;
+	case 106:	return (void*)WSAAsyncGetServByPort;
+	case 101:	return (void*)WSAAsyncSelect;
+	case 108:	return (void*)WSACancelAsyncRequest;
+	case 113:	return (void*)WSACancelBlockingCall;
+	case 116:	return (void*)WSACleanup;
+	case 111:	return (void*)WSAGetLastError;
+	case 114:	return (void*)WSAIsBlocking;
+	case 1107:	return (void*)WSARecvEx;
+	case 109:	return (void*)WSASetBlockingHook;
+	case 112:	return (void*)WSASetLastError;
+	case 115:	return (void*)WSAStartup;
+	case 110:	return (void*)WSAUnhookBlockingHook;
+//	case 1000:	return (void*)WSApSetPostRoutine;
+	case 151:	return (void*)__WSAFDIsSet;
+	case 1:	return (void*)_accept;
+	case 2:	return (void*)_bind;
+	case 3:	return (void*)_closesocket;
+	case 4:	return (void*)_connect;
+//	case 1106:	return (void*)_dn_expand;
+//	case 51:	return (void*)_gethostbyaddr;
+//	case 52:	return (void*)_gethostbyname;
+	case 57:	return (void*)_gethostname;
+//	case 1101:	return (void*)_getnetbyname;
+	case 5:	return (void*)_getpeername;
+	case 53:	return (void*)_getprotobyname;
+	case 54:	return (void*)_getprotobynumber;
+	case 55:	return (void*)_getservbyname;
+	case 56:	return (void*)_getservbyport;
+	case 6:	return (void*)_getsockname;
+	case 7:	return (void*)_getsockopt;
+	case 8:	return (void*)_htonl;
+	case 9:	return (void*)_htons;
+	case 10:	return (void*)_inet_addr;
+//	case 1100:	return (void*)_inet_network;
+	case 11:	return (void*)_inet_ntoa;
+	case 12:	return (void*)_ioctlsocket;
+//	case 13:	return (void*)_listen;
+	case 14:	return (void*)_ntohl;
+	case 15:	return (void*)_ntohs;
+//	case 1102:	return (void*)_rcmd;
+	case 16:	return (void*)_recv;
+	case 17:	return (void*)_recvfrom;
+//	case 1103:	return (void*)_rexec;
+//	case 1104:	return (void*)_rresvport;
+//	case 1108:	return (void*)_s_perror;
+//	case 18:	return (void*)_select;
+	case 19:	return (void*)_send;
+	case 20:	return (void*)_sendto;
+//	case 1105:	return (void*)_sethostname;
+	case 21:	return (void*)_setsockopt;
+	case 22:	return (void*)_shutdown;
+	case 23:	return (void*)_socket;
+	}
+	return NULL;
+}

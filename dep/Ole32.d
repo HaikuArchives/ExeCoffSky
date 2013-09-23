@@ -1,0 +1,2 @@
+obj.x86/Ole32.o : 
+dep/Volume.d obj.x86/Volume.o : DLLs/Kernel32/Volume.cpp DLLs/Kernel32/Volume.h   Common/Common.h Common/Errors.h DLLs/Win32Structures.h   DLLs/Kernel32/Process.h DLLs/Kernel32/Handle.h DLLs/Kernel32/Thread.h   DLLs/Kernel32/Tls.h DLLs/Kernel32/Path.h DLLs/Win32String.h   DLLs/Win32Trace.h DLLs/Kernel32/LastError.h Coff.h CoffFileHeader.h   OptionalHeader.h SectionHeader.h CoffSigSegv.h ResourceTable.h   DLLs/Win32Error.h

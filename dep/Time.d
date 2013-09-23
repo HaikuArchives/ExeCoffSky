@@ -1,0 +1,2 @@
+obj.x86/Time.o : 
+dep/Thread.d obj.x86/Thread.o : DLLs/Kernel32/Thread.cpp DLLs/Kernel32/Thread.h   Common/Common.h Common/Errors.h DLLs/Win32Structures.h   DLLs/Kernel32/Handle.h DLLs/Kernel32/Tls.h DLLs/User32/Timer.h   DLLs/Kernel32/Locale.h DLLs/Kernel32/Module.h Coff.h CoffFileHeader.h   OptionalHeader.h SectionHeader.h CoffSigSegv.h ResourceTable.h   DLLs/User32/Window.h DLLs/GDI32/DeviceContext.h DLLs/Win32Trace.h   DLLs/Kernel32/LastError.h DLLs/Win32Error.h
